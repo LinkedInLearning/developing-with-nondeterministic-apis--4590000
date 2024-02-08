@@ -3,9 +3,11 @@ This is the repository for the LinkedIn Learning course `Developing with Nondete
 
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
-This repository provides basic examples of how to use the Moderation feature of the OpenAI API in Python.
+This repository provides basic examples of how to introduce greater determinism and consistency to the responses from the OpenAI API.
 
-There are three examples: `basic.py`, `conditional.py`, and `mod-assistant.py`. Each example is stand-alone and runs in terminal.
+The examples are demonstrated in the course and provided as-is. They are not meant as a follow-along exercise but rather for reference and further experimentation.
+
+The examples are named for the chapter and video number they appear in. Each example is stand-alone and runs in terminal.
 
 To use these exercise files you need an OpenAI API key. You get that key at [platform.openai.com](https://platform.openai.com)
 
@@ -16,12 +18,6 @@ To use these exercise files you need an OpenAI API key. You get that key at [pla
 4. Add `OPENAI_API_KEY=` followed by your OpenAI API key to `.env`
 5. Note `.env` is not tracked by GitHub so the file will only exist in this Codespace.
 6. To run the Python example in terminal, use the `python [filename].py` command.
-
-## Running `mod-assistant.py`
-To run `mod-assistant.py` you must first create an Assistant and add its ID into the file. You can create an assistant at [platform.openai.com](https://platform.openai.com). 
-
-For further info on OpenAI Assistants check out our dedicated course on the subject.
-
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
